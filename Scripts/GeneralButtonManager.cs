@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class GeneralButtonManager : MonoBehaviour {
 
     /*
+    Script Version: 1.0
+
     Made by DemirK2
     https://twitter.com/demir_k2
 
