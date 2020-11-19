@@ -38,6 +38,14 @@ public class GeneralButtonManager : MonoBehaviour {
         Application.Quit();
     }
 
+    // Toggles the Full-Screen mode.
+    public void ToggleFullScreen()
+    {
+        Screen.fullScreen = !Screen.fullScreen;
+    }
+    
+    /* Cursor actions are disabled due to a bug.
+
     // Disables the cursor.
     public void DisableCursor()
     {
@@ -51,4 +59,6 @@ public class GeneralButtonManager : MonoBehaviour {
         Cursor.visible = true;
         Cursor.LockState = CursorLockMode.None;
     }
+
+    */
 }
